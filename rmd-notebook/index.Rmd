@@ -5,7 +5,7 @@ author: "Lincoln Mullen"
 
 ### What is this?
 
-If you use [R Markdown](http://rmarkdown.rstudio.com/) for data analysis projects, you might like to put your HTML reports on the web for people to look at. It would be nice if those pages were closely tied to your GitHub repository, but HTML pages render as code on GitHub proper. So this repository is a template for making a GitHub pages version of your analysis. Not that you have to use GitHub pages: you could just as easily rsync your HTML files anywhere else that you want.
+This is a 'fork' - a copy - of Lincoln Mullen's 'Simple R Markdown Notebook'. [R Markdown](http://rmarkdown.rstudio.com/) is like 'ordinary' Markdown with the added benefit of being able to run and display R code you use for your analysis. In this version of Mullen's notebook, we've added code to support the [hypothes.is](http://hypothes.is) web annotation framework. That way, not only can you share your notes, your code, and your results, but others can annotate and share their annotations! 
 
 For example, here is the table of contents for rendered versions of every R Markdown document in this repository.
 
@@ -44,3 +44,18 @@ push = +refs/heads/master:refs/heads/master
 Don't forget to commit the HTML files that you generate.
 
 See the [GitHub repository](https://github.com/lmullen/rmd-notebook) for the source. See the [R Markdown documentation](http://rmarkdown.rstudio.com/) if you want to do more.
+
+### So, what do I do again?
+
+1. While logged in to your Github account, clone (copy) this repo to your own account.
+2. Make a gh-pages branch. Set that branch as the default branch via the settings.
+2. Clone your version of the notebook to your machine.
+
+Within R Studio or from the command line (within the notebook folder) or from your favourite text editor:
+1. Write your code or your notes in a text file, and save them with the .Rmd file extension. Use numbers at the start of the file name, eg `01-my-first-note.Rmd`, `02-thoughts-on-Laurence-1999.Rmd`. Make sure you're saving within the notebook folder.
+2. From the command line, type `make`
+3. Add your changes to git.
+4. Make a commit.
+5. Push your changes to your gh-pages branch of your notebook.
+
+Your notebook now lives at the <your-account-name>.github.io/<path-to-your-notebook>
