@@ -52,7 +52,8 @@ See the [GitHub repository](https://github.com/lmullen/rmd-notebook) for the sou
 2. Clone your version of the notebook to your machine.
 
 Within R Studio or from the command line (within the notebook folder) or from your favourite text editor:
-1. Write your code or your notes in a text file. Make sure that the start of your file has the metadata describing it between three dashes, 
+
++ Write your code or your notes in a text file. Make sure that the start of your file has the metadata describing it between three dashes, 
 ```
 ---
 title: "First page of the notebook"
@@ -62,9 +63,10 @@ date: "December 3, 2015"
 ```
 
 and save them with the .Rmd file extension. Use numbers at the start of the file name, eg `01-my-first-note.Rmd`, `02-thoughts-on-Laurence-1999.Rmd`. Make sure you're saving within the notebook folder.
-2. From the command line, type `make`
-3. Add your changes to git.
-4. Make a commit.
-5. Push your changes to your gh-pages branch of your notebook.
+
++ From the command line, type `make`
++ Add your changes to git.
++ Make a commit.
++ Push your changes to your gh-pages branch of your notebook.
 
 Your notebook now lives at the <your-account-name>.github.io/<path-to-your-notebook>
