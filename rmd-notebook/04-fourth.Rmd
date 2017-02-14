@@ -1,0 +1,7 @@
+---
+title: "Shawn's final page in the notebook"
+author: "Shawn Graham"
+date: "Feb 13 2017"
+---
+
+ta da!
