@@ -69,4 +69,4 @@ and save them with the .Rmd file extension. Use numbers at the start of the file
 + Make a commit.
 + Push your changes to your gh-pages branch of your notebook.
 
-Your notebook now lives at the <your-account-name>.github.io/<path-to-your-notebook>
+Your notebook now lives at the \<your-account-name>.github.io/\<path-to-your-notebook>
