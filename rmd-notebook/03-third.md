@@ -1,0 +1,7 @@
+---
+title: "another page in the notebook by shawn"
+author: "Shawn Graham"
+date: "Feb 13 2017"
+---
+
+blerg blaggle yargle blech
